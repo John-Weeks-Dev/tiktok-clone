@@ -4,16 +4,20 @@
 
 If you'd like a step by step guide on how to build this just **CLICK THE IMAGE BELOW**
 
-[![GO TO JOHN WEEKS DEV TUTORIAL VIDEOS](https://user-images.githubusercontent.com/108229029/216832225-fe8ffbb9-4f26-47f5-a236-e77790000018.png)](https://www.youtube.com/watch?v=ZzuqwqP1wAQ)
+[![GO TO JOHN WEEKS DEV TUTORIAL VIDEOS](https://user-images.githubusercontent.com/108229029/225070348-6bda979a-4922-493f-945d-ac9f206ceddb.png)](https://www.youtube.com/watch?v=ZzuqwqP1wAQ)
 
 Come and check out my YOUTUBE channel for lots more tutorials -> https://www.youtube.com/@johnweeksdev
 
 **LIKE**, **SUBSCRIBE**, and **SMASH THE NOTIFICATION BELL**!!!
 
+## NOTE
+
+
+
 ## App Setup
 
 ```
-git clone https://github.com/John-Weeks-Dev/spotify-clone.git
+git clone https://github.com/John-Weeks-Dev/tiktok-clone.git
 
 npm i
 
