@@ -1,0 +1,15 @@
+https://icones.js.org/collection/mdi
+https://www.npmjs.com/package/@pinia/nuxt
+https://prazdevs.github.io/pinia-plugin-persistedstate/frameworks/nuxt-3.html
+https://medium.com/techvblogs/spa-authentication-using-laravel-9-sanctum-vue-3-and-vite-b1fb1020d754
+https://icones.js.org/
+
+npm i pinia -f
+
+AUTH / BACKEND (for install select api)
+composer require laravel/breeze --dev
+php artisan breeze:install 
+
+App\Models\User::create(["name"=> "John Weeks Dev","email"=>"john@m.com","password"=>bcrypt("123123123")]);
+
+
