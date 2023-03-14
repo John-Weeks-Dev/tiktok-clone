@@ -1,4 +1,4 @@
-# Tiktok Clone (spotify-clone)
+# Tiktok Clone (ticktok-clone)
 
 ### Learn how to build this!
 
@@ -12,7 +12,7 @@ Come and check out my YOUTUBE channel for lots more tutorials -> https://www.you
 
 ## NOTE
 
-
+### For this Tiktok Clone to work you'll need the API/Backend: https://github.com/John-Weeks-Dev/tiktok-clone-api
 
 ## App Setup
 
