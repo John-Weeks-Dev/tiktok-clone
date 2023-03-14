@@ -18,7 +18,7 @@
                     Follow
                 </button>
             </div>
-            <div class="text-[15px] pb-0.5 break-words max-w-[400px]">{{ post.text }}</div>
+            <div class="text-[15px] pb-0.5 break-words max-w-[300px]">{{ post.text }}</div>
             <div class="text-[14px] text-gray-500 pb-0.5">#fun #cool #SuperAwesome</div>
             <div class="text-[14px] pb-0.5 flex items-center font-semibold">
                 <Icon name="mdi:music" size="17"/>
