@@ -72,6 +72,8 @@ const register = async () => {
             confirmPassword.value
         )
         await $userStore.getUser()
+        await $generalStore.getRandomUsers('suggested')
+        await $generalStore.getRandomUsers('following')
         $generalStore.isLoginOpen = false
     } catch (error) {
         console.log(error)
