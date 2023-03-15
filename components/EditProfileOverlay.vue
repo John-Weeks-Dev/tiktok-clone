@@ -200,11 +200,11 @@ const cropAndUpdateImage = async () => {
     const { coordinates } = cropper.value.getResult()
     let data = new FormData();
 
-    data.append('image', file.value)
-    data.append('height', coordinates.height)
-    data.append('width', coordinates.width)
-    data.append('left', coordinates.left)
-    data.append('top', coordinates.top)    
+    data.append('image', file.value || '')
+    data.append('height', coordinates.height || '')
+    data.append('width', coordinates.width || '')
+    data.append('left', coordinates.left || '')
+    data.append('top', coordinates.top || '')    
 
     try {
         await $userStore.updateUserImage(data)
