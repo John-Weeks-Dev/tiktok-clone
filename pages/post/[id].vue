@@ -151,11 +151,13 @@
                     class="flex items-center justify-between px-8 mt-4"
                 >
                     <div class="flex items-center relative w-full">
-                        <img 
-                            class="absolute top-0 rounded-full lg:mx-0 mx-auto" 
-                            width="40" 
-                            :src="comment.user.image"
-                        >
+                        <NuxtLink :to="`/profile/${comment.user.id}`">
+                            <img 
+                                class="absolute top-0 rounded-full lg:mx-0 mx-auto" 
+                                width="40" 
+                                :src="comment.user.image"
+                            >
+                        </NuxtLink>
                         <div class="ml-14 pt-0.5 w-full">
                             <div class="text-[18px] font-semibold flex items-center justify-between">
                                 {{ comment.user.name }}
