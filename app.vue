@@ -20,7 +20,7 @@ onMounted(async () => {
         await $generalStore.getRandomUsers('suggested')
         await $generalStore.getRandomUsers('following')
 
-        if (!$userStore.id) {
+        if ($userStore.id) {
             $userStore.getUser()
         }
     } catch (error) {
